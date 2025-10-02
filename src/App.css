@@ -31,14 +31,15 @@ img{
 
 #containerPrincipal{
     background-color: #EFDC15;
-    margin: 0 auto;
 }
 
 .containerHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
     padding: 40px 0;
     background-color: #EFDC15;
-    border-bottom: 20px solid black;
 }
 
 .containerCard{
@@ -51,6 +52,11 @@ img{
 
 .containerCard div{
     margin: 6px 0;
+}
+
+.imgHeader{
+    max-width: 15%;
+    top: 15;
 }
 
 .actorCard{
