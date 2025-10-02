@@ -5,17 +5,43 @@
 }
 
 body{
-    background-color: cadetblue;
+    background-color: rgb(246, 149, 149);
+}
+
+h1{
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+h3{
+    color: #FD080A;
+    letter-spacing: 7px;
+    font-size: 24px;
 }
 
 #containerPrincipal{
-    width: 90%;
-    height: 800px;
-    background-color: burlywood;
+    height: 1200px;
+    background-color: #EFDC15;
     margin: 0 auto;
 }
 
 .containerHeader{
-    height: 200px;
-    background-color: aquamarine;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #EFDC15;
+    border-bottom: 40px solid black;
+}
+
+.containerCard{
+    height: 800px;
+    background-color: #FD080A;
+    margin: 0 auto;
+}
+
+.actorCard{
+    height: 400px;
+    width: 400px;
+    background-color: white;
 }
