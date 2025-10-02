@@ -30,7 +30,7 @@ img{
 }
 
 #containerPrincipal{
-    background-color: #EFDC15;
+    background-color: #000000;
 }
 
 .containerHeader{
@@ -43,11 +43,13 @@ img{
 }
 
 .containerCard{
-    padding: 10px 0;
+    padding: 20px;
+    width: 98%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     background-color: #000000;
+    margin: 0 auto;
 }
 
 .containerCard div{
