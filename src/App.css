@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-h1{
+body{
     font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+h1{
     letter-spacing: 5px;
     margin-bottom: 10px;
     font-size: 50px;
@@ -15,11 +18,18 @@ h3{
     color: #FD080A;
     letter-spacing: 7px;
     font-size: 24px;
-    font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+h4{
+    color: red;
+      transition: 2s;
+}
+img{
+    max-width: 40%;
+    padding: 10px;
 }
 
 #containerPrincipal{
-    height: 1200px;
     background-color: #EFDC15;
     margin: 0 auto;
 }
@@ -28,17 +38,44 @@ h3{
     text-align: center;
     padding: 40px 0;
     background-color: #EFDC15;
-    border-bottom: 40px solid black;
+    border-bottom: 20px solid black;
 }
 
 .containerCard{
-    height: 800px;
-    background-color: #FD080A;
-    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #000000;
+}
+
+.containerCard div{
+    margin: 6px 0;
 }
 
 .actorCard{
-    height: 400px;
-    width: 400px;
-    background-color: white;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: center;
+    width: calc((100% / 4) -(30px / 4));
+    background-color: #EFDC15;
+    transition: 2s;
+}
+
+.actorCard:hover{
+    cursor: pointer;
+    background-color: #FD080A;
+    color: white;
+    transition: 2s;
+    transform: scale(1.02);
+    box-shadow: 1px 1px 1px 1px rgb(255, 0, 0);
+}
+
+.actorCard:hover h4{
+    color: white;
+    transition: 2s;
+}
+
+.red{
+    color: red;
 }
