@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+#containerPrincipal{
+    width: 90%;
+    height: 800px;
+    background-color: burlywood;
+    margin: 0 auto;
+}
+
+.containerHeader{
+    height: 200px;
+    background-color: aquamarine;
+}
