@@ -3,7 +3,7 @@ function MyHeader() {
     <>
       <header>
         <div class="containerHeader">
-          <h1>ActorFinder</h1>
+          <h1>ACTOR/FINDER</h1>
           <h3>Tutte le tue star preferite!</h3>
         </div>
       </header>

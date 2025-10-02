@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(246, 149, 149);
-}
-
 h1{
     font-family: "Oswald", Arial, Helvetica, sans-serif;
     letter-spacing: 5px;
@@ -19,6 +15,7 @@ h3{
     color: #FD080A;
     letter-spacing: 7px;
     font-size: 24px;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
 }
 
 #containerPrincipal{
